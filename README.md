@@ -31,7 +31,7 @@ See our full validation strategy: [`docs/CUSTOMER_VALIDATION.md`](docs/CUSTOMER_
 
 Fully interactive demo analyzing 26,000+ ZIP codes. No installation required.
 
-## Landing Page
+## Learn More
 
 📄 **[View Landing Page →](https://abpuri.github.io/flipiq/landing_page.html)**
 
