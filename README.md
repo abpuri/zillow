@@ -26,13 +26,17 @@ See our full validation strategy: [`docs/CUSTOMER_VALIDATION.md`](docs/CUSTOMER_
 
 ## Try the Demo
 
-### Live Dashboard
+## Live Dashboard
 
-https://flipiq.streamlit.app/
+🚀 **[Try the Live Dashboard →](https://flipiq.streamlit.app/)**
 
-### Landing Page
+Fully interactive demo analyzing 26,000+ ZIP codes. No installation required.
 
-Open https://abpuri.github.io/flipiq/landing_page.html in your browser to see:
+## Landing Page
+
+📄 **[View Marketing Page →](https://abpuri.github.io/flipiq/landing_page.html)**
+
+Features:
 - ROI calculator
 - Feature comparison
 - Signup form
@@ -152,42 +156,6 @@ zillow/
 └── requirements.txt                 # Dependencies
 ```
 
----
-
-## Quick Start
-
-### Prerequisites
-
-- Python 3.9 or higher
-- pip package manager
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/flipiq.git
-cd flipiq
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Running the Dashboard
-
-```bash
-streamlit run streamlit_app.py
-```
-
-Dashboard opens at `http://localhost:8501`
-
-### Running the Agent Simulation
-
-```bash
-python workflows/simulate_agent_run.py --days 90
-```
-
----
-
 ## Customer Discovery
 
 We're actively talking to house flippers. If you're interested in trying FlipIQ or providing feedback:
@@ -284,18 +252,13 @@ The 5-factor composite score (0-100) combines:
 
 ### Getting Started
 - [`README.md`](README.md) — This file
-- [`docs/DEMO.md`](docs/DEMO.md) — 5-minute demo walkthrough
+- [`docs/DEMO.md`](docs/DEMO.md) — 5-minute demo walkthrough (IN PROGRESS)
 - [`docs/architecture.md`](docs/architecture.md) — System architecture
-
-### Deployment
-- [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) — Deploy to Streamlit Cloud, Netlify
 
 ### Customer Validation
 - [`docs/CUSTOMER_VALIDATION.md`](docs/CUSTOMER_VALIDATION.md) — Validation strategy
-- [`docs/customer_discovery/`](docs/customer_discovery/) — Outreach templates, scripts
 
 ### Demo & Sales
-- [`docs/demo/`](docs/demo/) — Scripts, deck, one-pager
 - [`docs/value_props/`](docs/value_props/) — Use cases, ROI, competitive analysis
 
 ### Business & Investment
@@ -321,7 +284,7 @@ The 5-factor composite score (0-100) combines:
 
 ## Important Notes
 
-> **This is a validation-stage MVP** built to demonstrate the concept and gather customer feedback. The system uses historical Zillow Research data (2022-2025) and simulated agent runs.
+> **This is a validation-stage MVP** built to demonstrate the concept and gather customer feedback. The system uses historical Zillow Research data (2022-2025) and simulated agent runs (for now!).
 
 > **Financial projections assume validation success.** Numbers in business documentation represent potential outcomes if product-market fit is achieved.
 
@@ -342,17 +305,11 @@ The 5-factor composite score (0-100) combines:
 
 ---
 
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
 ## Contact
 
-**Abhay Puri** — [LinkedIn](https://linkedin.com/in/abhaypuri) | [Email](mailto:abhay@example.com)
+**Abhay Puri** — [LinkedIn](https://linkedin.com/in/abhaypuri1)
 
-**Anthony Nastasi** — Co-Founder & COO
+**Anthony Nastasi** — [LinkedIn](https://www.linkedin.com/in/anthony-g-nastasi-b8a387143/)
 
 ---
 
@@ -360,8 +317,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 - **House Flippers:** [Sign up for beta access](landing_page.html)
 - **Investors:** [Read the investment memo](docs/investor_memo.md)
-- **Partners:** [Contact us](mailto:hello@flipiq.ai)
-
----
-
-*Built with Python, Pandas, Streamlit, and a lot of real estate data.*
+- **Partners:** [Contact us](abhaypuri189@gmail.com)
