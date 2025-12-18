@@ -34,7 +34,7 @@ Fully interactive demo analyzing 26,000+ ZIP codes. No installation required.
 
 ## Landing Page
 
-📄 **[View Marketing Page →](https://abpuri.github.io/flipiq/landing_page.html)**
+📄 **[View Landing Page →](https://abpuri.github.io/flipiq/landing_page.html)**
 
 Features:
 - ROI calculator
@@ -100,61 +100,6 @@ FlipIQ is an **AI-powered opportunity detection platform** that deploys autonomo
 | **Data Source** | Zillow Research (public datasets) |
 
 ---
-
-## Repository Structure
-
-```
-zillow/
-├── data/
-│   ├── raw/zillow/                  # Original Zillow CSV datasets
-│   └── processed/
-│       ├── agent_logs/              # Simulation outputs
-│       └── *.csv                    # Scored opportunities
-│
-├── src/
-│   ├── data_loader.py               # Dataset loading
-│   ├── scoring_engine.py            # 5-factor scoring
-│   ├── agent_workflow.py            # 6 agents + orchestrator
-│   ├── property_analyzer.py         # Deep-dive analysis
-│   └── alert_system.py              # Alert generation
-│
-├── workflows/
-│   └── simulate_agent_run.py        # Agent simulation
-│
-├── notebooks/                       # Jupyter notebooks
-│
-├── docs/
-│   ├── architecture.md              # System architecture
-│   ├── DEMO.md                      # Demo walkthrough
-│   ├── DEPLOYMENT.md                # Deployment guide
-│   ├── CUSTOMER_VALIDATION.md       # Validation strategy
-│   │
-│   ├── customer_discovery/          # Customer research materials
-│   │   ├── outreach_templates.md    # Email/LinkedIn templates
-│   │   ├── discovery_call_script.md # Call scripts
-│   │   └── feedback_tracker_template.csv
-│   │
-│   ├── demo/                        # Demo materials
-│   │   ├── demo_script.md           # Video script
-│   │   ├── presentation_deck.md     # Slides content
-│   │   └── one_pager.md             # Leave-behind
-│   │
-│   ├── value_props/                 # Sales materials
-│   │   ├── use_cases.md             # Customer stories
-│   │   ├── competitive_analysis_one_pager.md
-│   │   └── roi_examples.md          # ROI calculations
-│   │
-│   ├── market_analysis.md           # TAM/SAM/SOM
-│   ├── unit_economics.md            # LTV, CAC, pricing
-│   ├── financial_projections.md     # 3-year model
-│   ├── investor_pitch_deck_content.md
-│   ├── investor_memo.md             # Investment memo
-│   └── risk_analysis.md             # Risk assessment
-│
-├── streamlit_app.py                 # Main dashboard
-├── landing_page.html                # Marketing page
-└── requirements.txt                 # Dependencies
-```
 
 ## Customer Discovery
 
@@ -248,27 +193,6 @@ The 5-factor composite score (0-100) combines:
 
 ---
 
-## Documentation Index
-
-### Getting Started
-- [`README.md`](README.md) — This file
-- [`docs/DEMO.md`](docs/DEMO.md) — 5-minute demo walkthrough (IN PROGRESS)
-- [`docs/architecture.md`](docs/architecture.md) — System architecture
-
-### Customer Validation
-- [`docs/CUSTOMER_VALIDATION.md`](docs/CUSTOMER_VALIDATION.md) — Validation strategy
-
-### Demo & Sales
-- [`docs/value_props/`](docs/value_props/) — Use cases, ROI, competitive analysis
-
-### Business & Investment
-- [`docs/market_analysis.md`](docs/market_analysis.md) — Market sizing
-- [`docs/unit_economics.md`](docs/unit_economics.md) — LTV, CAC, pricing
-- [`docs/financial_projections.md`](docs/financial_projections.md) — 3-year model
-- [`docs/investor_memo.md`](docs/investor_memo.md) — Investment opportunity
-- [`docs/risk_analysis.md`](docs/risk_analysis.md) — Risk assessment
-
----
 
 ## Future Roadmap
 
@@ -318,3 +242,82 @@ The 5-factor composite score (0-100) combines:
 - **House Flippers:** [Sign up for beta access](landing_page.html)
 - **Investors:** [Read the investment memo](docs/investor_memo.md)
 - **Partners:** [Contact us](abhaypuri189@gmail.com)
+
+---
+
+## Documentation Index
+
+### Getting Started
+- [`README.md`](README.md) — This file
+- [`docs/DEMO.md`](docs/DEMO.md) — 5-minute demo walkthrough (IN PROGRESS)
+- [`docs/architecture.md`](docs/architecture.md) — System architecture
+
+### Customer Validation
+- [`docs/CUSTOMER_VALIDATION.md`](docs/CUSTOMER_VALIDATION.md) — Validation strategy
+
+### Demo & Sales
+- [`docs/value_props/`](docs/value_props/) — Use cases, ROI, competitive analysis
+
+### Business & Investment
+- [`docs/market_analysis.md`](docs/market_analysis.md) — Market sizing
+- [`docs/unit_economics.md`](docs/unit_economics.md) — LTV, CAC, pricing
+- [`docs/financial_projections.md`](docs/financial_projections.md) — 3-year model
+- [`docs/investor_memo.md`](docs/investor_memo.md) — Investment opportunity
+- [`docs/risk_analysis.md`](docs/risk_analysis.md) — Risk assessment
+
+---
+
+## Repository Structure
+
+```
+zillow/
+├── data/
+│   ├── raw/zillow/                  # Original Zillow CSV datasets
+│   └── processed/
+│       ├── agent_logs/              # Simulation outputs
+│       └── *.csv                    # Scored opportunities
+│
+├── src/
+│   ├── data_loader.py               # Dataset loading
+│   ├── scoring_engine.py            # 5-factor scoring
+│   ├── agent_workflow.py            # 6 agents + orchestrator
+│   ├── property_analyzer.py         # Deep-dive analysis
+│   └── alert_system.py              # Alert generation
+│
+├── workflows/
+│   └── simulate_agent_run.py        # Agent simulation
+│
+├── notebooks/                       # Jupyter notebooks
+│
+├── docs/
+│   ├── architecture.md              # System architecture
+│   ├── DEMO.md                      # Demo walkthrough
+│   ├── DEPLOYMENT.md                # Deployment guide
+│   ├── CUSTOMER_VALIDATION.md       # Validation strategy
+│   │
+│   ├── customer_discovery/          # Customer research materials
+│   │   ├── outreach_templates.md    # Email/LinkedIn templates
+│   │   ├── discovery_call_script.md # Call scripts
+│   │   └── feedback_tracker_template.csv
+│   │
+│   ├── demo/                        # Demo materials
+│   │   ├── demo_script.md           # Video script
+│   │   ├── presentation_deck.md     # Slides content
+│   │   └── one_pager.md             # Leave-behind
+│   │
+│   ├── value_props/                 # Sales materials
+│   │   ├── use_cases.md             # Customer stories
+│   │   ├── competitive_analysis_one_pager.md
+│   │   └── roi_examples.md          # ROI calculations
+│   │
+│   ├── market_analysis.md           # TAM/SAM/SOM
+│   ├── unit_economics.md            # LTV, CAC, pricing
+│   ├── financial_projections.md     # 3-year model
+│   ├── investor_pitch_deck_content.md
+│   ├── investor_memo.md             # Investment memo
+│   └── risk_analysis.md             # Risk assessment
+│
+├── streamlit_app.py                 # Main dashboard
+├── landing_page.html                # Marketing page
+└── requirements.txt                 # Dependencies
+```
