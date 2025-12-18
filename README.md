@@ -28,15 +28,7 @@ See our full validation strategy: [`docs/CUSTOMER_VALIDATION.md`](docs/CUSTOMER_
 
 ### Live Dashboard
 
-```bash
-# Clone and run locally
-git clone https://github.com/yourusername/flipiq.git
-cd flipiq
-pip install -r requirements.txt
-streamlit run streamlit_app.py
-```
-
-Dashboard opens at `http://localhost:8501`
+https://flipiq.streamlit.app/
 
 ### Landing Page
 
